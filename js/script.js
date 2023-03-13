@@ -16,3 +16,13 @@ const counters = document.querySelectorAll('.skills__rating-counter'),
 counters.forEach( (item, i) => {
 	lines[i].style.width = item.innerHTML;
 });
+
+let a = 10;
+
+if (a) {
+	let a = 3;
+	a *= a;
+	console.log(a);
+}
+
+console.log(a);
